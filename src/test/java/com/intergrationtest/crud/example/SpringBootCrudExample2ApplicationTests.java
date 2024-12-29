@@ -1,13 +1,12 @@
-package com.javatechie.crud.example;
+package com.intergrationtest.crud.example;
 
-import com.javatechie.crud.example.entity.Product;
+import com.intergrationtest.crud.example.entity.Product;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.web.server.LocalServerPort;
-import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.jdbc.Sql;
 import org.springframework.web.client.RestTemplate;
 
